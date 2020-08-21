@@ -24,6 +24,42 @@ function Header() {
 
         {/* subLinks   npm i @material-ui/icons */}
 
+        <div className="header__nav">
+        
+        {/* Links on nab  (1st link) */}
+
+            <Link to="/checkout" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionLineOne">Hello User</span>
+                    <span className="header__optionLineTwo">Sign In</span>
+                </div>
+            </Link>
+
+        {/* 2nd link */}
+
+        
+            <Link to="/checkout" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionLineOne">Orders</span>
+                    <span className="header__optionLineTwo">& Returns</span>
+                </div>
+            </Link>
+
+        {/* 3rd link */}
+
+        
+            <Link to="/checkout" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionLineOne">Your</span>
+                    <span className="header__optionLineTwo">Prime</span>
+                </div>
+            </Link>
+
+        {/* 4th link (basket) */}
+
+
+
+        </div>
        
 
         </nav>
