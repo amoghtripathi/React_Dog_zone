@@ -2,12 +2,13 @@ import React from 'react'
 import "./Header.css";
 import {Link} from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 
 function Header() {
     return (
         <nav className="header">
-        <Link to="/checkout">
+        <Link to="/signup">
             <img
              className="header_logo" 
              src="http://dogzone.com.au/wp-content/themes/dogzone/library/images/DogZone-logo-horizontal.png" 
@@ -28,7 +29,7 @@ function Header() {
         
         {/* Links on nab  (1st link) */}
 
-            <Link to="/checkout" className="header__link">
+            <Link to="/login" className="header__link">
                 <div className="header__option">
                     <span className="header__optionLineOne">Hello User</span>
                     <span className="header__optionLineTwo">Sign In</span>
@@ -57,7 +58,14 @@ function Header() {
 
         {/* 4th link (basket) */}
 
+        <Link to="/checkout" className="header__link">
+            <div className="header__optionBasket">
+                <ShoppingBasketIcon />
+                <span className="header__optionLineTwo header__basketCount">0</span>
+            </div>
+        </Link>
 
+        
 
         </div>
        
