@@ -10,7 +10,7 @@ function Header() {
 
     const [{ basket }, dispatch]= useStateValue();
     // console.log(basket);
-
+    // https://images.pexels.com/photos/36372/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
     return (
         <nav className="header">
         <Link to="/signup">
