@@ -13,7 +13,7 @@ function Home() {
 
         <Product
             id="123"
-            title="the book: how to read and write"
+            title="The Book: How to read and write"
             price={11}
             rating={5}
             image="https://m.media-amazon.com/images/I/9138VXjBfPL._AC_UY327_FMwebp_QL65_.jpg"
