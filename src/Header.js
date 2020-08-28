@@ -13,7 +13,7 @@ function Header() {
     // https://images.pexels.com/photos/36372/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
     return (
         <nav className="header">
-        <Link to="/signup">
+        <Link to="/">
             <img
              className="header_logo" 
              src="http://dogzone.com.au/wp-content/themes/dogzone/library/images/DogZone-logo-horizontal.png" 
